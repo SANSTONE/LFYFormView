@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D472DAC5CBE4A4B5781396A6 /* libPods-LFYFormViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7922EF80E7DF43C9055717 /* libPods-LFYFormViewDemo.a */; };
+		D5057144246FA37D004A49EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5057143246FA37D004A49EA /* AppDelegate.m */; };
+		D5057147246FA37D004A49EA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5057146246FA37D004A49EA /* SceneDelegate.m */; };
+		D505714A246FA37D004A49EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5057149246FA37D004A49EA /* ViewController.m */; };
+		D505714D246FA37D004A49EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D505714B246FA37D004A49EA /* Main.storyboard */; };
+		D505714F246FA37E004A49EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D505714E246FA37E004A49EA /* Assets.xcassets */; };
+		D5057152246FA37E004A49EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5057150246FA37E004A49EA /* LaunchScreen.storyboard */; };
+		D5057155246FA37E004A49EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5057154246FA37E004A49EA /* main.m */; };
+		D505715F246FA37F004A49EA /* LFYFormViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D505715E246FA37F004A49EA /* LFYFormViewDemoUITests.m */; };
+		D5057170246FA3E1004A49EA /* FKFormViewFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D505716D246FA3E1004A49EA /* FKFormViewFieldCell.m */; };
+		D5057171246FA3E1004A49EA /* FKFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = D505716E246FA3E1004A49EA /* FKFormView.m */; };
+		D5057172246FA3E1004A49EA /* FKFormViewSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D505716F246FA3E1004A49EA /* FKFormViewSectionHeaderView.m */; };
+		D5057175246FBA71004A49EA /* loginView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5057174246FBA71004A49EA /* loginView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D505715B246FA37F004A49EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5057137246FA37D004A49EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D505713E246FA37D004A49EA;
+			remoteInfo = LFYFormViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE6AFA8C88E64D5DFB1C4D9 /* Pods-LFYFormViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFYFormViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-LFYFormViewDemo/Pods-LFYFormViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7922EF80E7DF43C9055717 /* libPods-LFYFormViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFYFormViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D505713F246FA37D004A49EA /* LFYFormViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFYFormViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5057142246FA37D004A49EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5057143246FA37D004A49EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5057145246FA37D004A49EA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D5057146246FA37D004A49EA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D5057148246FA37D004A49EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5057149246FA37D004A49EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D505714C246FA37D004A49EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D505714E246FA37E004A49EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5057151246FA37E004A49EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5057153246FA37E004A49EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5057154246FA37E004A49EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D505715A246FA37F004A49EA /* LFYFormViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFYFormViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D505715E246FA37F004A49EA /* LFYFormViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFYFormViewDemoUITests.m; sourceTree = "<group>"; };
+		D5057160246FA37F004A49EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D505716A246FA3E1004A49EA /* FKFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKFormView.h; sourceTree = "<group>"; };
+		D505716B246FA3E1004A49EA /* FKFormViewFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKFormViewFieldCell.h; sourceTree = "<group>"; };
+		D505716C246FA3E1004A49EA /* FKFormViewSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKFormViewSectionHeaderView.h; sourceTree = "<group>"; };
+		D505716D246FA3E1004A49EA /* FKFormViewFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKFormViewFieldCell.m; sourceTree = "<group>"; };
+		D505716E246FA3E1004A49EA /* FKFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKFormView.m; sourceTree = "<group>"; };
+		D505716F246FA3E1004A49EA /* FKFormViewSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKFormViewSectionHeaderView.m; sourceTree = "<group>"; };
+		D5057173246FBA71004A49EA /* loginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginView.h; sourceTree = "<group>"; };
+		D5057174246FBA71004A49EA /* loginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginView.m; sourceTree = "<group>"; };
+		E7A1E33F0DB549BD128F59BE /* Pods-LFYFormViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFYFormViewDemo.release.xcconfig"; path = "Target Support Files/Pods-LFYFormViewDemo/Pods-LFYFormViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D505713C246FA37D004A49EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D472DAC5CBE4A4B5781396A6 /* libPods-LFYFormViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5057157246FA37F004A49EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215D6A87E5FFB7EF02679EA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B7922EF80E7DF43C9055717 /* libPods-LFYFormViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E183D773DA01898310A35E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE6AFA8C88E64D5DFB1C4D9 /* Pods-LFYFormViewDemo.debug.xcconfig */,
+				E7A1E33F0DB549BD128F59BE /* Pods-LFYFormViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5057136246FA37D004A49EA = {
+			isa = PBXGroup;
+			children = (
+				D5057141246FA37D004A49EA /* LFYFormViewDemo */,
+				D505715D246FA37F004A49EA /* LFYFormViewDemoUITests */,
+				D5057140246FA37D004A49EA /* Products */,
+				B0E183D773DA01898310A35E /* Pods */,
+				215D6A87E5FFB7EF02679EA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5057140246FA37D004A49EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D505713F246FA37D004A49EA /* LFYFormViewDemo.app */,
+				D505715A246FA37F004A49EA /* LFYFormViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5057141246FA37D004A49EA /* LFYFormViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D5057169246FA3E1004A49EA /* LFYFormView */,
+				D5057142246FA37D004A49EA /* AppDelegate.h */,
+				D5057143246FA37D004A49EA /* AppDelegate.m */,
+				D5057145246FA37D004A49EA /* SceneDelegate.h */,
+				D5057146246FA37D004A49EA /* SceneDelegate.m */,
+				D5057148246FA37D004A49EA /* ViewController.h */,
+				D5057149246FA37D004A49EA /* ViewController.m */,
+				D5057173246FBA71004A49EA /* loginView.h */,
+				D5057174246FBA71004A49EA /* loginView.m */,
+				D505714B246FA37D004A49EA /* Main.storyboard */,
+				D505714E246FA37E004A49EA /* Assets.xcassets */,
+				D5057150246FA37E004A49EA /* LaunchScreen.storyboard */,
+				D5057153246FA37E004A49EA /* Info.plist */,
+				D5057154246FA37E004A49EA /* main.m */,
+			);
+			path = LFYFormViewDemo;
+			sourceTree = "<group>";
+		};
+		D505715D246FA37F004A49EA /* LFYFormViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D505715E246FA37F004A49EA /* LFYFormViewDemoUITests.m */,
+				D5057160246FA37F004A49EA /* Info.plist */,
+			);
+			path = LFYFormViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		D5057169246FA3E1004A49EA /* LFYFormView */ = {
+			isa = PBXGroup;
+			children = (
+				D505716A246FA3E1004A49EA /* FKFormView.h */,
+				D505716E246FA3E1004A49EA /* FKFormView.m */,
+				D505716B246FA3E1004A49EA /* FKFormViewFieldCell.h */,
+				D505716D246FA3E1004A49EA /* FKFormViewFieldCell.m */,
+				D505716C246FA3E1004A49EA /* FKFormViewSectionHeaderView.h */,
+				D505716F246FA3E1004A49EA /* FKFormViewSectionHeaderView.m */,
+			);
+			path = LFYFormView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D505713E246FA37D004A49EA /* LFYFormViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5057163246FA37F004A49EA /* Build configuration list for PBXNativeTarget "LFYFormViewDemo" */;
+			buildPhases = (
+				6C360E895D3A3A09DF558D7D /* [CP] Check Pods Manifest.lock */,
+				D505713B246FA37D004A49EA /* Sources */,
+				D505713C246FA37D004A49EA /* Frameworks */,
+				D505713D246FA37D004A49EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFYFormViewDemo;
+			productName = LFYFormViewDemo;
+			productReference = D505713F246FA37D004A49EA /* LFYFormViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5057159246FA37F004A49EA /* LFYFormViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5057166246FA37F004A49EA /* Build configuration list for PBXNativeTarget "LFYFormViewDemoUITests" */;
+			buildPhases = (
+				D5057156246FA37F004A49EA /* Sources */,
+				D5057157246FA37F004A49EA /* Frameworks */,
+				D5057158246FA37F004A49EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D505715C246FA37F004A49EA /* PBXTargetDependency */,
+			);
+			name = LFYFormViewDemoUITests;
+			productName = LFYFormViewDemoUITests;
+			productReference = D505715A246FA37F004A49EA /* LFYFormViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5057137246FA37D004A49EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lei.FY;
+				TargetAttributes = {
+					D505713E246FA37D004A49EA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D5057159246FA37F004A49EA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D505713E246FA37D004A49EA;
+					};
+				};
+			};
+			buildConfigurationList = D505713A246FA37D004A49EA /* Build configuration list for PBXProject "LFYFormViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5057136246FA37D004A49EA;
+			productRefGroup = D5057140246FA37D004A49EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D505713E246FA37D004A49EA /* LFYFormViewDemo */,
+				D5057159246FA37F004A49EA /* LFYFormViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D505713D246FA37D004A49EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5057152246FA37E004A49EA /* LaunchScreen.storyboard in Resources */,
+				D505714F246FA37E004A49EA /* Assets.xcassets in Resources */,
+				D505714D246FA37D004A49EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5057158246FA37F004A49EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C360E895D3A3A09DF558D7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFYFormViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D505713B246FA37D004A49EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D505714A246FA37D004A49EA /* ViewController.m in Sources */,
+				D5057144246FA37D004A49EA /* AppDelegate.m in Sources */,
+				D5057175246FBA71004A49EA /* loginView.m in Sources */,
+				D5057155246FA37E004A49EA /* main.m in Sources */,
+				D5057172246FA3E1004A49EA /* FKFormViewSectionHeaderView.m in Sources */,
+				D5057147246FA37D004A49EA /* SceneDelegate.m in Sources */,
+				D5057170246FA3E1004A49EA /* FKFormViewFieldCell.m in Sources */,
+				D5057171246FA3E1004A49EA /* FKFormView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5057156246FA37F004A49EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D505715F246FA37F004A49EA /* LFYFormViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D505715C246FA37F004A49EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D505713E246FA37D004A49EA /* LFYFormViewDemo */;
+			targetProxy = D505715B246FA37F004A49EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D505714B246FA37D004A49EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D505714C246FA37D004A49EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5057150246FA37E004A49EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5057151246FA37E004A49EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5057161246FA37F004A49EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5057162246FA37F004A49EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5057164246FA37F004A49EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE6AFA8C88E64D5DFB1C4D9 /* Pods-LFYFormViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK9LHXC432;
+				INFOPLIST_FILE = LFYFormViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdage.getMac.LFYFormViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5057165246FA37F004A49EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A1E33F0DB549BD128F59BE /* Pods-LFYFormViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK9LHXC432;
+				INFOPLIST_FILE = LFYFormViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdage.getMac.LFYFormViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5057167246FA37F004A49EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK9LHXC432;
+				INFOPLIST_FILE = LFYFormViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdage.getMac.LFYFormViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFYFormViewDemo;
+			};
+			name = Debug;
+		};
+		D5057168246FA37F004A49EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK9LHXC432;
+				INFOPLIST_FILE = LFYFormViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdage.getMac.LFYFormViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFYFormViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D505713A246FA37D004A49EA /* Build configuration list for PBXProject "LFYFormViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5057161246FA37F004A49EA /* Debug */,
+				D5057162246FA37F004A49EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5057163246FA37F004A49EA /* Build configuration list for PBXNativeTarget "LFYFormViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5057164246FA37F004A49EA /* Debug */,
+				D5057165246FA37F004A49EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5057166246FA37F004A49EA /* Build configuration list for PBXNativeTarget "LFYFormViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5057167246FA37F004A49EA /* Debug */,
+				D5057168246FA37F004A49EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5057137246FA37D004A49EA /* Project object */;
+}
